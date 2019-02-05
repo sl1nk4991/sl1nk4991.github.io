@@ -1,0 +1,54 @@
+  body {
+    font-family: Courier;
+    font-weight: 100;
+  	font-size: 30px;
+  	background-color: black;
+  	color: green;
+    border-left: 2px solid #ccc; /* Параметры линии */ 
+    margin-left: 20px; /* Отступ слева */
+    padding-left: 0px; /* Расстояние от линии до текста */ 
+    border-right: 2px solid #ccc; /* Параметры линии */ 
+    margin-right: 20px; /* Отступ справа */
+    padding-right: 0px; /* Расстояние от линии до текста */ 
+   }
+   .new {
+    font-family: Impact;
+    color: red;
+   }
+   .music {
+    font-family: Impact;
+    color: white;
+   }
+a.button18 {
+  margin-right: 40px;
+  display: inline-block;
+  font-size: 20px;
+  color: rgb(205,216,228);
+  text-decoration: none;
+  padding: .2em .8em;
+  outline: none;
+  border-right: 1px solid rgba(13,20,27,.5);
+  border-top: 1px solid rgba(270,278,287,.01);
+  background-color: rgb(64,73,82);
+  background-image:
+   radial-gradient(1px 60% at 0% 50%, rgba(255,255,255,.3), transparent),
+   radial-gradient(1px 60% at 100% 50%, rgba(255,255,255,.3), transparent),
+   linear-gradient(rgb(64,73,82), rgb(72,81,90));
+}
+a.button18:hover {
+  background-image:
+   radial-gradient(1px 60% at 0% 50%, rgba(255,255,255,.3), transparent),
+   radial-gradient(1px 60% at 100% 50%, rgba(255,255,255,.3), transparent),
+   linear-gradient(rgb(51,60,67), rgb(58,65,72));
+}
+a.button18:focus {
+  color: rgb(245,247,250);
+  border-top: 1px solid rgb(67,111,136);
+  background-image:
+   linear-gradient(rgb(46,95,122), rgb(36,68,92));
+}
+a.button18:focus:hover {
+  border-top: 1px solid rgb(49,87,107);
+  background-image:
+   linear-gradient(rgb(33,77,98), rgb(29,57,77));
+}
